@@ -40,12 +40,15 @@ const book4 : Book = {
 const bookList : Book[] = [];
 const bookList2 = addBook(bookList , book);
 console.log(bookList2);
+
 console.log("---------------------------");
 const bookList3 = addBook(bookList2 , book2);
 console.log(bookList3);
+
 console.log("---------------------------");
 const bookList4 = addBook(bookList3 , book3);
 console.log(bookList4);
+
 console.log("---------------------------");
 const bookList5 = addBook(bookList4 , book4);
 console.log(bookList5);
@@ -53,6 +56,7 @@ console.log("---------------------------");
 
 console.log(findByIsbn(bookList5 , "1234567890"));
 console.log("-------------");
+
 console.log(findByIsbn(bookList5 , "3344556677"));
 console.log("-------------");
 console.log(bookList3);

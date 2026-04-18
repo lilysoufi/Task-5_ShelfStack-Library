@@ -47,7 +47,7 @@ A simple TypeScript utility for managing a book collection. This project demonst
 
 -   **Immutability**: Uses the spread operator (`...`) to update data without mutating the original state.
 -   **TypeScript Core**: Strictly typed interfaces with  `readonly`  properties for data integrity.
-- 
+
 
 **Key Functions**
 
@@ -82,6 +82,3 @@ npx tsc
 node dist/helpers.js
 ```
 
-📄 License
-
-MIT
